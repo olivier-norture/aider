@@ -1,0 +1,39 @@
+- name: openai/TheBloke/Mixtral-8x7B-Instruct-v0.1-AWQ
+  edit_format: udiff
+  use_repo_map: true
+  extra_params: null
+  cache_control: true
+  caches_by_default: true
+  use_temperature: true
+  streaming: true
+  editor_edit_format: editor-diff
+
+- name: openai/OPEA/Mistral-Small-3.1-24B-Instruct-2503-int4-AutoRound-awq-sym
+  edit_format: udiff
+  use_repo_map: true
+  extra_params: null
+  cache_control: true
+  caches_by_default: true
+  use_temperature: true
+  streaming: true
+  editor_edit_format: editor-diff
+
+- name: openai/PyrTools/Ministral-8B-Instruct-2410-AWQ
+  edit_format: udiff
+  use_repo_map: true
+  extra_params: null
+  cache_control: true
+  caches_by_default: true
+  use_temperature: true
+  streaming: true
+  editor_edit_format: editor-diff
+
+- name: openai/THUDM/GLM-4-32B-0414
+  edit_format: udiff
+  use_repo_map: true
+  extra_params: null
+  cache_control: true
+  caches_by_default: true
+  use_temperature: true
+  streaming: true
+  editor_edit_format: editor-diff

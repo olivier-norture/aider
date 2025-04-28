@@ -1,0 +1,8 @@
+# created by virtualenv automatically
+bin/
+lib/
+pytest-of-root/
+CACHEDIR.TAG
+env-vars
+pyenv.cfg
+.env
