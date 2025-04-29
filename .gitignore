@@ -4,5 +4,5 @@ lib/
 pytest-of-root/
 CACHEDIR.TAG
 env-vars
-pyenv.cfg
+pyvenv.cfg
 .env
