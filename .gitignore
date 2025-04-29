@@ -5,4 +5,4 @@ pytest-of-root/
 CACHEDIR.TAG
 env-vars
 pyvenv.cfg
-.env
+.env*

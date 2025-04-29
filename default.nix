@@ -3,7 +3,7 @@ with pkgs;
 
 pkgs.mkShell rec {
   buildInputs = with pkgs; [
-    aider-chat-with-playwright
+    pkgs.aider-chat-with-playwright
   ];
 
   shellHook = ''
@@ -14,7 +14,7 @@ pkgs.mkShell rec {
     function myAider() {
       aider \
       --vim \
-      --model-settings-file=$HOME/config.yaml \
+      --model-settings-file=$HOME/aider/config.yaml \
       --model $AIDER_MODEL
     }
 
