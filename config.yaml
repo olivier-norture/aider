@@ -8,7 +8,7 @@
   streaming: true
   editor_edit_format: editor-diff
 
-- name: Valdemardi/DeepSeek-R1-Distill-Qwen-32B-AWQ
+- name: Qwen/QwQ-32B-AWQ
   edit_format: udiff
   use_repo_map: true
   extra_params: null
