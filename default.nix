@@ -15,7 +15,7 @@ pkgs.mkShell rec {
       aider \
       --vim \
       --model-settings-file=$HOME/aider/config.yaml \
-      --model $AIDER_MODEL
+      --model $AIDER_MODEL $@
     }
 
     alias aider=myAider

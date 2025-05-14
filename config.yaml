@@ -47,3 +47,13 @@
   use_temperature: true
   streaming: true
   editor_edit_format: editor-diff
+
+- name: openai/Orion-zhen/Qwen3-8B-AWQ
+  edit_format: udiff
+  use_repo_map: true
+  extra_params: null
+  cache_control: true
+  caches_by_default: true
+  use_temperature: true
+  streaming: true
+  editor_edit_format: editor-diff
